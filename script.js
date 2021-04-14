@@ -1,4 +1,4 @@
-let newDate = "1 Jan 2023";
+let newDate = prompt("Enter a Date");
 
 function countdown() {
   let newYearDate = new Date(newDate);
