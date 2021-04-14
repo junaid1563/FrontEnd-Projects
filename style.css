@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+* {
+  /* background-color: rgb(187, 185, 185); */
+  font-family: poppins;
+  box-sizing: border-box;
+  color: b;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1617744108168-356439e0bf17?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4NDEwMzE1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+.countdown-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 2rem 0 2rem;
+}
+
+body > h1 {
+  display: flex;
+  margin-top: 5vw;
+  color: black;
+  font-weight: normal;
+}
+.big-text {
+  display: flex;
+  justify-content: center;
+  font-size: 8vw;
+  line-height: 1;
+  font-weight: bold;
+  margin: 0 3rem;
+  text-align: center;
+}
+.countdown-el {
+  text-align: center;
+}
+.countdown-el > span {
+  font-size: 1.2rem;
+}
+/* https://source.unsplash.com/1600x900/?nature,water */
